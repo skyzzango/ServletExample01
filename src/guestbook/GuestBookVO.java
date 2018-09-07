@@ -5,7 +5,7 @@ public class GuestBookVO {
 	private String name;
 	private String pwd;
 	private String content;
-	private String regDate;
+	private String reg_date;
 
 	public Integer getNo() {
 		return no;
@@ -39,11 +39,11 @@ public class GuestBookVO {
 		this.content = content;
 	}
 
-	public String getRegDate() {
-		return regDate;
+	public String getReg_date() {
+		return reg_date;
 	}
 
-	public void setRegDate(String regDate) {
-		this.regDate = regDate;
+	public void setReg_date(String reg_date) {
+		this.reg_date = reg_date;
 	}
 }

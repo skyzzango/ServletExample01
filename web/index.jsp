@@ -17,6 +17,7 @@
 	<h3>$END$</h3><br>
 	<a class="btn btn-primary" href="user/userForm.jsp" role="button">회원가입</a>
 	<a class="btn btn-primary" href="/guestbook" role="button">방명록</a>
+	<a class="btn btn-primary" href="gb" role="button">방명록2</a>
 </div>
 </body>
 </html>

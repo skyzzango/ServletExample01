@@ -53,7 +53,7 @@ public class GuestBookDAO {
 				vo.setName(rs.getString(2));
 				vo.setPwd(rs.getString(3));
 				vo.setContent(rs.getString(4));
-				vo.setRegDate(rs.getString(5));
+				vo.setReg_date(rs.getString(5));
 				list.add(vo);
 			}
 		} catch (SQLException e) {

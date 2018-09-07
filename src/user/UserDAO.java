@@ -28,11 +28,11 @@ public class UserDAO {
 			 * 2) Connection 을 얻기 위해 필요한 url 역시, 벤더사마다 다르다
 			 * 3) mysql 은 "jdbc:mysql://localhost/dbName" 이다.*/
 			conn = DriverManager.getConnection(URL, "iu", "iu1004");
+			System.out.println("Success: Connected to database");
 		} catch (ClassNotFoundException e) {
 			System.out.println("Failed: Connected to database");
 		}
 		// 3. 연결된 Connection 반환
-		System.out.println("Success: Connected to database");
 		return conn;
 	}
 

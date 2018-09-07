@@ -1,0 +1,14 @@
+create table guestbook (
+  no       integer auto_increment primary key not null,
+  name     varchar(50)         not null,
+  pwd      varchar(60)         not null,
+  content  varchar(9999)       not null,
+  reg_date datetime
+);
+
+create table user (
+  no    int auto_increment primary key not null,
+  name  varchar(20)     not null,
+  email varchar(50)     not null,
+  pwd   varchar(30)     not null
+);

@@ -1,4 +1,7 @@
-package user;
+package controller;
+
+import user.UserDAO;
+import user.UserVO;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -24,6 +27,6 @@ public class ServletUser extends HttpServlet {
 		UserDAO dao = new UserDAO();
 		dao.insert(vo);
 
-		response.sendRedirect("userForm.jsp");
+		response.sendRedirect("user/userForm.jsp");
 	}
 }
